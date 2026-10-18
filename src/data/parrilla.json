@@ -54,6 +54,84 @@
   },
   "items": [
     {
+      "id": "par-ig-001",
+      "code": "PAR-IG-001",
+      "title": "Episodio #1: El día que tus ingresos superen tu nivel personal estás en PELIGRO",
+      "pillar": "mindset",
+      "format": "reel",
+      "channel": "Instagram",
+      "status": "publicado",
+      "date": "2026-10-14",
+      "timeSlot": "7:00 PM",
+      "hook": "El día que tus ingresos superen tu nivel de desarrollo personal estás en PELIGRO ⚠️",
+      "caption": "Episodio #1 ‼️\n\nEl día que tus ingresos superen tu nivel de desarrollo personal estás en PELIGRO ⚠️\n\n#viralreels #colombia🇨🇴 #calicolombia #negocios",
+      "hashtags": [
+        "#viralreels",
+        "#colombia",
+        "#calicolombia",
+        "#negocios",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver Reel en Instagram Oficial",
+        "url": "https://www.instagram.com/reel/DefoDG3RMfK/",
+        "targetResource": "Instagram"
+      },
+      "media": {
+        "videoUrl": "https://www.instagram.com/reel/DefoDG3RMfK/",
+        "thumbnailUrl": "https://scontent.cdninstagram.com/v/t51.82787-15/850007968_18595300483070153_8098909339923155457_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zOxd0QJ6cZoQ7kNvwFRLs7Z&_nc_oc=Ado3XDWRpbsCCMOCBlx99oES12yG98Lc7BbHFsiB6-X5dL_VGIi9TR-gsrOJXDy6ibA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=EBfQeoUWInFFHoDssFmRMQ&_nc_ss=7ca8c&oh=00_AQNDtYKxfkrFaW80e0YzYam6YF8Wy2k4I3eLYkIKVO10mg&oe=6ADA25AB",
+        "duration": "0:58"
+      },
+      "metrics": {
+        "views": 408,
+        "likes": 34,
+        "comments": 3,
+        "shares": 0,
+        "retentionRate": "70%"
+      },
+      "assignedEditor": "Brayan Pérez (Instagram)",
+      "notes": "Reel oficial Ep. #1 verificado en vivo con 34 likes y 3 comentarios"
+    },
+    {
+      "id": "par-ig-002",
+      "code": "PAR-IG-002",
+      "title": "Episodio #2: ELIMINAR EL MIEDO ‼️",
+      "pillar": "trading_riesgo",
+      "format": "reel",
+      "channel": "Instagram",
+      "status": "publicado",
+      "date": "2026-10-16",
+      "timeSlot": "7:00 PM",
+      "hook": "Eliminar el miedo no es volverse loco invirtiendo en cualquier cosa, es saber por qué lo haces",
+      "caption": "Episodio #2\n\nELIMINAR EL MIEDO ‼️\n\nEliminar el miedo no es volverse loco invirtiendo en cualquier cosa , es saber por qué lo haces , que gano si lo hago o que estoy dispuesto a dar para que funcione.\n\nAccionar conciente es lo más importante a la hora de INVERTIR ⚠️\n\nVIDEO COMPLETO EN YOUTUBE ▶️\n\n#viralreels #colombia🇨🇴 #calicolombia #negociosdigitales",
+      "hashtags": [
+        "#viralreels",
+        "#colombia",
+        "#calicolombia",
+        "#negociosdigitales",
+        "#trading"
+      ],
+      "cta": {
+        "label": "Ver Reel en Instagram Oficial",
+        "url": "https://www.instagram.com/reel/DekaynGBSq6/",
+        "targetResource": "Instagram"
+      },
+      "media": {
+        "videoUrl": "https://www.instagram.com/reel/DekaynGBSq6/",
+        "thumbnailUrl": "https://scontent.cdninstagram.com/v/t51.82787-15/849773234_18595929193070153_6079114444564596838_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=aF_HMfMrTzoQ7kNvwF83r8m&_nc_oc=Ado4xBHYqTAzhukTCRLiy6Hm1FL_iipvYmk38xsOICANMLRZd5lpI0yArpIY0TCnd-Q&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=c9LYGiHiT4H9NA4OIAIV2Q&_nc_ss=7ca8c&oh=00_AQPRenngPe4SAnCOCn8R_uKRz2S7KSPpLxuGxA1nSPjgZw&oe=6ADA2462",
+        "duration": "0:45"
+      },
+      "metrics": {
+        "views": 144,
+        "likes": 12,
+        "comments": 1,
+        "shares": 0,
+        "retentionRate": "70%"
+      },
+      "assignedEditor": "Brayan Pérez (Instagram)",
+      "notes": "Reel oficial Ep. #2 verificado en vivo con 12 likes y 1 comentario"
+    },
+    {
       "id": "par-001",
       "code": "PAR-001",
       "title": "LA LECCION DE 700 MIL DOLARES",

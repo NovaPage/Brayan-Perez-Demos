@@ -17,6 +17,7 @@ import { ParrillaHeader } from "./parrilla-header";
 import { ParrillaTable } from "./parrilla-table";
 import { ParrillaCards } from "./parrilla-cards";
 import { ParrillaDetailModal } from "./parrilla-detail-modal";
+import { ParrillaImportModal } from "./parrilla-import-modal";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
@@ -40,6 +41,11 @@ export function ParrillaView({ initialItems }: ParrillaViewProps) {
   const [items, setItems] = React.useState<ParrillaItem[]>(initialItems);
   const [isSyncing, setIsSyncing] = React.useState(false);
   const [lastSyncTime, setLastSyncTime] = React.useState<string>("Reciente");
+  const [isImportModalOpen, setIsImportModalOpen] = React.useState(false);
+
+  const handleItemImported = (newItem: ParrillaItem) => {
+    setItems((prev) => [newItem, ...prev.filter((i) => i.id !== newItem.id)]);
+  };
 
   const handleLiveSync = async () => {
     setIsSyncing(true);
@@ -123,6 +129,7 @@ export function ParrillaView({ initialItems }: ParrillaViewProps) {
         isSyncing={isSyncing}
         onSync={handleLiveSync}
         lastSyncTime={lastSyncTime}
+        onOpenImport={() => setIsImportModalOpen(true)}
       />
 
       {/* Filter and Control Bar */}
@@ -299,6 +306,13 @@ export function ParrillaView({ initialItems }: ParrillaViewProps) {
         item={selectedItem}
         open={isModalOpen}
         onOpenChange={setIsModalOpen}
+      />
+
+      {/* Dynamic Social Import Modal */}
+      <ParrillaImportModal
+        open={isImportModalOpen}
+        onOpenChange={setIsImportModalOpen}
+        onItemImported={handleItemImported}
       />
     </div>
   );

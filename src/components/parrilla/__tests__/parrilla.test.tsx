@@ -19,11 +19,11 @@ describe("Parrilla Service and Models", () => {
 
   it("calculates accurate stats and real view counts", () => {
     const stats = getParrillaStats(items);
-    expect(stats.totalItems).toBe(22);
-    expect(stats.publishedCount).toBe(20);
+    expect(stats.totalItems).toBe(24);
+    expect(stats.publishedCount).toBe(22);
     expect(stats.totalViews).toBeGreaterThan(10000); // 11.926+ real views
     expect(stats.channelsCount.YouTube).toBe(21);
-    expect(stats.channelsCount.Instagram).toBe(1);
+    expect(stats.channelsCount.Instagram).toBe(3);
   });
 
   it("filters items by YouTube channel", () => {
@@ -86,6 +86,7 @@ describe("Parrilla UI Components", () => {
     render(<ParrillaTable items={items} onSelectItem={vi.fn()} />);
     const linkButtons = screen.getAllByRole("link", { name: /ver enlace/i });
     expect(linkButtons.length).toBeGreaterThan(0);
-    expect(linkButtons[0]).toHaveAttribute("href", expect.stringContaining("youtube.com"));
+    const href = linkButtons[0].getAttribute("href");
+    expect(href).toMatch(/(youtube\.com|instagram\.com)/);
   });
 });

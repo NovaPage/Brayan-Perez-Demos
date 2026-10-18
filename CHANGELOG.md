@@ -7,6 +7,18 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 Repositorio oficial: [GitHub - NovaPage/Brayan-Perez-Demos](https://github.com/NovaPage/Brayan-Perez-Demos.git)
 
+## [0.4.0] - 2026-10-18
+
+### Añadido
+- **Extractor e Importador Dinámico por Enlace (`/api/parrilla/import`)**:
+  - Servicio `src/services/social-extractor.ts` que consulta en tiempo real metadatos de **Instagram Reels** y **YouTube** sin requerir credenciales ni tokens de pago.
+  - Extracción automática de título, gancho de retención, copy completo, hashtags, miniatura oficial en CDN de Meta y métricas verificadas (likes y comentarios reales).
+  - Modal interactivo `ParrillaImportModal` con botón **"+ Sumar por Link"** en el encabezado de `/parrilla`: permite pegar cualquier link de Instagram o YouTube, previsualizar la tarjeta con datos auditados y sumarla a la parrilla en vivo.
+  - Integración en `parrilla.json` de los 2 primeros episodios oficiales de Instagram de Brayan Pérez:
+    - `PAR-IG-001`: *"Episodio #1: El día que tus ingresos superen tu nivel personal estás en PELIGRO ⚠️"* (34 likes, 3 comentarios reales).
+    - `PAR-IG-002`: *"Episodio #2: ELIMINAR EL MIEDO ‼️"* (12 likes, 1 comentario real).
+  - 20 pruebas unitarias aprobadas al 100% y build de producción Turbopack validado con rutas dinámicas.
+
 ## [0.3.1] - 2026-10-18
 
 ### Añadido
