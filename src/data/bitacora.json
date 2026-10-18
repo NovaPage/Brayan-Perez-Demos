@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-18T04:40:00Z",
+  "project": {
+    "name": "Ecosistema Educativo Brayan Pérez",
+    "owner": "Brayan Pérez",
+    "slogan": "Educación sin reservas. Trading basado en proceso.",
+    "portfolioUrl": "https://brayanperez-theta.vercel.app/"
+  },
+  "items": [
+    {
+      "id": "item-1",
+      "code": "BP-001",
+      "title": "Adquisición de PC portátil de alto rendimiento",
+      "summary": "Equipo de cómputo para soportar la edición de video 4K/Reels y la operación del ecosistema de marketing.",
+      "category": "hardware",
+      "status": "pendiente",
+      "priority": "alta",
+      "cost": {
+        "amount": 2500000,
+        "currency": "COP",
+        "status": "estimado",
+        "formattedText": "$2.500.000 COP",
+        "notes": "Presupuesto objetivo para laptop dedicada a edición en DaVinci/Premiere y flujos de marketing."
+      },
+      "objectives": [
+        "Eliminar cuellos de botella en renderizado de videos en alta definición.",
+        "Asegurar capacidad técnica para edición de podcasts y piezas para redes.",
+        "Habilitar entorno seguro para automatizaciones locales y gestión de contenidos."
+      ],
+      "details": [
+        { "label": "Presupuesto Estimado", "value": "$2.500.000 COP", "type": "currency" },
+        { "label": "Área de Impacto", "value": "Edición y Marketing Digital", "type": "text" },
+        { "label": "Especificaciones Mínimas", "value": "16GB+ RAM, GPU dedicada o Apple Silicon / Ryzen 7", "type": "text" },
+        { "label": "Estado de Compra", "value": "Cotización de modelos disponibles en mercado", "type": "text" }
+      ],
+      "channels": ["YouTube", "Instagram", "TikTok"],
+      "assignedTo": "Brayan Pérez",
+      "tags": ["Hardware", "Inversión", "Producción", "Marketing"],
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "item-2",
+      "code": "BP-002",
+      "title": "Set de iluminación: Luz de fondo tubular LED + Trípode",
+      "summary": "Iluminación de fondo para ambientación de estudio de trading y podcast, compuesta por tubo LED y trípode.",
+      "category": "produccion",
+      "status": "pendiente",
+      "priority": "media",
+      "cost": {
+        "amount": 225000,
+        "currency": "COP",
+        "status": "estimado",
+        "formattedText": "$225.000 COP",
+        "notes": "Desglose: Tubo LED (~$180.000 COP) + Trípode soporte (~$45.000 COP)."
+      },
+      "objectives": [
+        "Elevar el estándar visual y la profundidad de campo en las tomas del estudio.",
+        "Alinear la estética con la identidad sobria y profesional de la marca.",
+        "Optimizar el contraste entre el operador y el fondo durante análisis en vivo y reels."
+      ],
+      "details": [
+        { "label": "Luz Tubular LED", "value": "$180.000 COP", "type": "currency" },
+        { "label": "Trípode Soporte", "value": "$45.000 COP", "type": "currency" },
+        { "label": "Total Estimado", "value": "$225.000 COP", "type": "currency" },
+        { "label": "Tipo de Luz", "value": "RGB / Bicolor regulable de 2700K a 6500K", "type": "text" }
+      ],
+      "channels": ["YouTube", "Instagram", "TikTok"],
+      "assignedTo": "Producción Estudio",
+      "tags": ["Iluminación", "Estudio", "Set", "AudioVisual"],
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "item-3",
+      "code": "BP-003",
+      "title": "Contratación y pago de editor de video profesional",
+      "summary": "Servicio de postproducción para videos largos de YouTube y micro-formatos de alta retención.",
+      "category": "talento",
+      "status": "en_revision",
+      "priority": "alta",
+      "cost": {
+        "currency": "COP",
+        "status": "pendiente_cotizacion",
+        "formattedText": "Propuesta Pendiente",
+        "notes": "En proceso de revisión de propuestas económicas y pruebas técnicas de edición."
+      },
+      "objectives": [
+        "Liberar tiempo operativo de Brayan Pérez para enfoque en trading y pedagogía.",
+        "Garantizar narrativa dinámica con subtitulado profesional y cortes limpios.",
+        "Mantener coherencia con la filosofía: cero falsos lujos, foco en valor real."
+      ],
+      "details": [
+        { "label": "Estado de Negociación", "value": "Propuesta de precios pendiente de definición", "type": "badge" },
+        { "label": "Entregables Esperados", "value": "1-2 videos largos semanales + 4-6 Reels/Shorts", "type": "text" },
+        { "label": "Estilo de Edición", "value": "Minimalista, tipografía moderna, motion graphics sutiles", "type": "text" }
+      ],
+      "channels": ["YouTube", "Instagram", "TikTok"],
+      "assignedTo": "Gestión Talento",
+      "tags": ["Talento", "Edición", "Postproducción", "Equipo"],
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "item-4",
+      "code": "BP-004",
+      "title": "Creación de la parrilla de contenido editorial",
+      "summary": "Diseño de la matriz de contenidos estructurada bajo el modelo 3·2·1 para distribución omnicanal.",
+      "category": "estrategia",
+      "status": "pendiente",
+      "priority": "alta",
+      "cost": {
+        "currency": "COP",
+        "status": "no_aplica",
+        "formattedText": "Recurso Interno",
+        "notes": "Tiempo y planificación estratégica propia."
+      },
+      "objectives": [
+        "Planificar con 2 a 4 semanas de anticipación los temas a grabar y publicar.",
+        "Implementar la matriz editorial: 3 pilares, 2 formatos de profundidad, 1 experimento semanal.",
+        "Vincular cada contenido a un objetivo de marca: educación, confianza o conversión."
+      ],
+      "subtasks": [
+        { "id": "sub-4-1", "title": "Definir los 3 pilares temáticos de trading y psicología", "status": "en_progreso" },
+        { "id": "sub-4-2", "title": "Estandarizar horarios de publicación por canal (BP-006)", "status": "pendiente" },
+        { "id": "sub-4-3", "title": "Estructurar plantillas de guiones y ganchos de retención", "status": "pendiente" }
+      ],
+      "details": [
+        { "label": "Marco Metodológico", "value": "Matriz 3·2·1 (Pilares · Formatos · Experimento)", "type": "text" },
+        { "label": "Frecuencia Objetivo", "value": "5 publicaciones semanales distribuidas", "type": "text" },
+        { "label": "Conexión de Módulos", "value": "Base para el futuro módulo /parrilla/", "type": "link" }
+      ],
+      "channels": ["YouTube", "Instagram", "TikTok"],
+      "assignedTo": "Estrategia de Contenido",
+      "tags": ["Parrilla", "Editorial", "Estrategia", "3·2·1"],
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "item-5",
+      "code": "BP-005",
+      "title": "Creación de agente de marketing con IA para contenido",
+      "summary": "Desarrollo de un agente inteligente capaz de procesar ideas, generar copies, hooks y sincronizar flujos.",
+      "category": "automatizacion",
+      "status": "pendiente",
+      "priority": "alta",
+      "cost": {
+        "currency": "COP",
+        "status": "no_aplica",
+        "formattedText": "Desarrollo con IA",
+        "notes": "Consumo de API tokens y lógica de prompts especializada."
+      },
+      "objectives": [
+        "Automatizar la generación de borradores de copys respetando el tono de Brayan Pérez.",
+        "Sugerir ganchos (hooks) de alta retención a partir de notas de operativa y podcast.",
+        "Facilitar la adaptación automática de un guion maestro a formatos cortos para TikTok/Reels."
+      ],
+      "details": [
+        { "label": "Tecnología", "value": "LLM Agents + Scripts de orquestación", "type": "text" },
+        { "label": "Tono del Agente", "value": "Sobrio, pedagógico, directo, sin promesas vacías", "type": "text" },
+        { "label": "Integración Futura", "value": "Conexión directa con la parrilla de contenidos", "type": "text" }
+      ],
+      "channels": ["YouTube", "Instagram", "TikTok"],
+      "assignedTo": "IA & Automatización",
+      "tags": ["IA", "Agentes", "Marketing", "Automatización"],
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "item-6",
+      "code": "BP-006",
+      "title": "Estandarización de horarios de publicación",
+      "summary": "Definición y validación de las franjas horarias con mayor tracción para la audiencia en cada red.",
+      "category": "estrategia",
+      "status": "pendiente",
+      "priority": "media",
+      "parentId": "item-4",
+      "parentTitle": "Creación de la parrilla de contenido editorial",
+      "cost": {
+        "currency": "COP",
+        "status": "no_aplica",
+        "formattedText": "No Aplica",
+        "notes": "Configuración analítica y operativa."
+      },
+      "objectives": [
+        "Establecer horas fijas para crear hábito de consumo en la comunidad.",
+        "Coordinar la subida sincronizada entre Reels, TikTok y YouTube Shorts.",
+        "Probar y documentar métricas de alcance en horarios de apertura y cierre de mercados."
+      ],
+      "details": [
+        { "label": "Relación Jerárquica", "value": "Subtarea ligada a BP-004 (Parrilla)", "type": "badge" },
+        { "label": "Instagram Reels", "value": "12:00 PM (Almuerzo) y 7:00 PM (Cierre)", "type": "text" },
+        { "label": "YouTube Principal", "value": "Domingos 6:00 PM (Preparación semanal)", "type": "text" },
+        { "label": "TikTok", "value": "1:00 PM y 8:30 PM", "type": "text" }
+      ],
+      "channels": ["YouTube", "Instagram", "TikTok"],
+      "assignedTo": "Estrategia de Contenido",
+      "tags": ["Horarios", "Métricas", "Distribución", "Subtarea"],
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "item-7",
+      "code": "BP-007",
+      "title": "Organización del copy de biografías en redes sociales",
+      "summary": "Redacción, unificación y optimización del copy de la biografía en YouTube, Instagram y TikTok.",
+      "category": "branding",
+      "status": "pendiente",
+      "priority": "alta",
+      "cost": {
+        "currency": "COP",
+        "status": "no_aplica",
+        "formattedText": "Branding Propio",
+        "notes": "Alineación de marca sin costo monetario directo."
+      },
+      "objectives": [
+        "Transmitir claramente la propuesta de valor en menos de 5 segundos de lectura.",
+        "Consolidar los lemas: 'La venta es una consecuencia' y 'Educación sin reservas'.",
+        "Dirigir el tráfico cualificado hacia el Hub Abierto (Podcast) y formulario de mentoría."
+      ],
+      "details": [
+        { "label": "YouTube Bio", "value": "Foco en formación técnica y psicología operativa real", "type": "text" },
+        { "label": "Instagram Bio", "value": "Trading de proceso + Enlace a Hub Abierto", "type": "text" },
+        { "label": "TikTok Bio", "value": "Lecciones de riesgo sin filtro. Cero hype.", "type": "text" },
+        { "label": "Llamado a la Acción (CTA)", "value": "Postulación a mentoría / Hub Abierto", "type": "text" }
+      ],
+      "channels": ["YouTube", "Instagram", "TikTok"],
+      "assignedTo": "Branding & Redes",
+      "tags": ["Copywriting", "Biografía", "RedesSociales", "Identidad"],
+      "createdAt": "2026-10-18T00:00:00Z",
+      "updatedAt": "2026-10-18T00:00:00Z"
+    }
+  ]
+}
