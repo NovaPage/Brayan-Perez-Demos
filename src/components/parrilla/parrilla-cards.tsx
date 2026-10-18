@@ -22,6 +22,7 @@ import {
   ArrowRight,
   Eye,
   Sparkles,
+  ExternalLink,
 } from "lucide-react";
 
 interface ParrillaCardsProps {
@@ -146,18 +147,38 @@ export function ParrillaCards({ items, onSelectItem }: ParrillaCardsProps) {
                 <span className="text-[11px] text-muted-foreground">Sin publicar</span>
               )}
 
-              <Button
-                variant="ghost"
-                size="sm"
-                className="h-8 gap-1.5 text-xs font-medium text-foreground hover:bg-muted"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onSelectItem(item);
-                }}
-              >
-                <span>Ficha Completa</span>
-                <ArrowRight className="size-3.5" />
-              </Button>
+              <div className="flex items-center gap-1.5">
+                {(item.media.videoUrl || item.cta.url) && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="h-8 px-2.5 text-xs font-medium gap-1 text-muted-foreground hover:text-red-500 hover:border-red-500/40"
+                    asChild
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <a
+                      href={item.media.videoUrl || item.cta.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="size-3 text-red-500" />
+                      <span>Ver enlace</span>
+                    </a>
+                  </Button>
+                )}
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-8 gap-1.5 text-xs font-medium text-foreground hover:bg-muted"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onSelectItem(item);
+                  }}
+                >
+                  <span>Ficha</span>
+                  <ArrowRight className="size-3.5" />
+                </Button>
+              </div>
             </CardFooter>
           </Card>
         );

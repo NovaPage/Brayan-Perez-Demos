@@ -17,7 +17,7 @@ import {
   FORMAT_META,
   STATUS_META,
 } from "@/services/parrilla";
-import { Eye, Clock, Calendar, Sparkles } from "lucide-react";
+import { Eye, Clock, Calendar, Sparkles, ExternalLink } from "lucide-react";
 
 interface ParrillaTableProps {
   items: ParrillaItem[];
@@ -48,7 +48,7 @@ export function ParrillaTable({ items, onSelectItem }: ParrillaTableProps) {
             <TableHead className="text-xs">PUBLICACIÓN</TableHead>
             <TableHead className="text-xs">ESTADO</TableHead>
             <TableHead className="text-xs">VISTAS</TableHead>
-            <TableHead className="w-[90px] text-right text-xs">ACCIÓN</TableHead>
+            <TableHead className="w-[140px] text-right text-xs">ACCIÓN & ENLACE</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -171,18 +171,39 @@ export function ParrillaTable({ items, onSelectItem }: ParrillaTableProps) {
 
                 {/* Acción */}
                 <TableCell className="text-right">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="h-8 gap-1 text-xs opacity-75 group-hover:opacity-100"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onSelectItem(item);
-                    }}
-                  >
-                    <Eye className="size-3.5" />
-                    <span>Ficha</span>
-                  </Button>
+                  <div className="flex items-center justify-end gap-1">
+                    {(item.media.videoUrl || item.cta.url) && (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="h-7 px-2 text-xs gap-1 border-border/80 text-muted-foreground hover:text-red-500 hover:border-red-500/40"
+                        asChild
+                        title="Ver publicación original directa"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <a
+                          href={item.media.videoUrl || item.cta.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <ExternalLink className="size-3" />
+                          <span className="hidden xl:inline">Ver enlace</span>
+                        </a>
+                      </Button>
+                    )}
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      className="h-7 px-2 text-xs gap-1 opacity-80 group-hover:opacity-100"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onSelectItem(item);
+                      }}
+                    >
+                      <Eye className="size-3.5" />
+                      <span>Ficha</span>
+                    </Button>
+                  </div>
                 </TableCell>
               </TableRow>
             );

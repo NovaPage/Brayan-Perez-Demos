@@ -77,8 +77,15 @@ describe("Parrilla UI Components", () => {
     render(<ParrillaCards items={items} onSelectItem={handleSelect} />);
 
     expect(screen.getByText("PAR-002")).toBeInTheDocument();
-    const buttons = screen.getAllByRole("button", { name: /ficha completa/i });
+    const buttons = screen.getAllByRole("button", { name: /ficha/i });
     await user.click(buttons[0]);
     expect(handleSelect).toHaveBeenCalled();
+  });
+
+  it("renders direct publication links for verification", () => {
+    render(<ParrillaTable items={items} onSelectItem={vi.fn()} />);
+    const linkButtons = screen.getAllByRole("link", { name: /ver enlace/i });
+    expect(linkButtons.length).toBeGreaterThan(0);
+    expect(linkButtons[0]).toHaveAttribute("href", expect.stringContaining("youtube.com"));
   });
 });

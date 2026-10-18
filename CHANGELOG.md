@@ -7,6 +7,19 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 Repositorio oficial: [GitHub - NovaPage/Brayan-Perez-Demos](https://github.com/NovaPage/Brayan-Perez-Demos.git)
 
+## [0.3.1] - 2026-10-18
+
+### Añadido
+- **Trazabilidad y Enlaces Directos a Fuentes Públicas en Parrilla**:
+  - Botón visible **"Ver enlace"** en cada fila de `ParrillaTable` (columna *"ACCIÓN & ENLACE"*) para abrir de inmediato la publicación original en YouTube en una nueva pestaña.
+  - Botón directo **"Ver enlace"** en cada tarjeta móvil de `ParrillaCards`.
+  - Panel destacado **"Fuente Oficial & Enlace Directo de Auditoría"** en `ParrillaDetailModal` con:
+    - URL canónica directa de la publicación (`https://www.youtube.com/watch?v=...`).
+    - Botón interactivo de **"Copiar enlace"** con fallback de portapapeles.
+    - Botón primario de acceso directo **"Ir a la publicación"** a YouTube oficial.
+    - Indicador de veracidad y verificación de métricas públicas.
+  - Prueba unitaria adicional en `parrilla.test.tsx` verificando la presencia y validez de los enlaces externos directos (20/20 pruebas pasando).
+
 ## [0.3.0] - 2026-10-18
 
 ### Añadido

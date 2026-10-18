@@ -38,6 +38,7 @@ import {
   GitFork,
   Target,
   Play,
+  ShieldCheck,
 } from "lucide-react";
 
 interface ParrillaDetailModalProps {
@@ -53,6 +54,7 @@ export function ParrillaDetailModal({
 }: ParrillaDetailModalProps) {
   const isMobile = useIsMobile();
   const [copied, setCopied] = React.useState(false);
+  const [copiedLink, setCopiedLink] = React.useState(false);
 
   if (!item) return null;
 
@@ -60,12 +62,44 @@ export function ParrillaDetailModal({
   const formatMeta = FORMAT_META[item.format];
   const statusMeta = STATUS_META[item.status];
 
-  const handleCopyCaption = () => {
+  const copyToClipboard = async (text: string) => {
+    try {
+      if (navigator?.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        throw new Error("Clipboard API unavailable");
+      }
+    } catch {
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      textArea.style.position = "fixed";
+      textArea.style.opacity = "0";
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      try {
+        document.execCommand("copy");
+      } catch {
+        // Fallback suppressed
+      }
+      document.body.removeChild(textArea);
+    }
+  };
+
+  const handleCopyCaption = async () => {
     if (!item) return;
     const fullText = `${item.caption}\n\n${item.hashtags.join(" ")}`;
-    navigator.clipboard.writeText(fullText);
+    await copyToClipboard(fullText);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleCopyLink = async () => {
+    const targetUrl = item?.media.videoUrl || item?.cta.url;
+    if (!targetUrl) return;
+    await copyToClipboard(targetUrl);
+    setCopiedLink(true);
+    setTimeout(() => setCopiedLink(false), 2000);
   };
 
   const content = (
@@ -118,16 +152,10 @@ export function ParrillaDetailModal({
             />
           </div>
           <div className="flex items-center justify-between text-xs text-muted-foreground px-1">
-            <span>Duración: {item.media.duration || "18:42"}</span>
-            <a
-              href={item.media.videoUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-primary hover:underline"
-            >
-              <span>Abrir en YouTube Oficial</span>
-              <ExternalLink className="size-3" />
-            </a>
+            <span>Duración: {item.media.duration || "0:50"}</span>
+            <span className="text-[11px] font-mono text-emerald-500 font-medium">
+              ID: {item.media.youtubeId}
+            </span>
           </div>
         </div>
       ) : item.media.videoUrl ? (
@@ -147,6 +175,65 @@ export function ParrillaDetailModal({
           </a>
         </div>
       ) : null}
+
+      {/* Direct Source & Audit Verification Block */}
+      {(item.media.videoUrl || item.cta.url) && (
+        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-3.5 space-y-2.5">
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-1.5 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
+              <ShieldCheck className="size-4 text-emerald-500" />
+              <span>Fuente Oficial & Enlace Directo de Auditoría</span>
+            </div>
+            <span className="text-[11px] font-mono text-muted-foreground">
+              {item.channel}: @BrayanPerezPro
+            </span>
+          </div>
+
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 bg-background/80 rounded-lg p-2.5 border border-border/70">
+            <span className="font-mono text-xs text-foreground/80 truncate select-all">
+              {item.media.videoUrl || item.cta.url}
+            </span>
+            <div className="flex items-center gap-1.5 shrink-0">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleCopyLink}
+                className="h-7 px-2.5 text-xs gap-1 font-medium"
+              >
+                {copiedLink ? (
+                  <>
+                    <Check className="size-3 text-emerald-500" />
+                    <span className="text-emerald-500">Copiado</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="size-3" />
+                    <span>Copiar enlace</span>
+                  </>
+                )}
+              </Button>
+              <Button
+                variant="default"
+                size="sm"
+                asChild
+                className="h-7 px-2.5 text-xs gap-1 bg-red-600 hover:bg-red-700 text-white font-medium shadow-2xs"
+              >
+                <a
+                  href={item.media.videoUrl || item.cta.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="size-3" />
+                  <span>Ir a la publicación</span>
+                </a>
+              </Button>
+            </div>
+          </div>
+          <p className="text-[11px] text-muted-foreground leading-normal">
+            Enlace público directo al video. Puedes abrirlo para verificar con tus propios ojos las métricas de visualizaciones, comentarios y fecha de publicación original.
+          </p>
+        </div>
+      )}
 
       {/* Hook Section */}
       <div className="rounded-xl border border-border/80 bg-muted/30 p-4 space-y-1.5 shadow-2xs">

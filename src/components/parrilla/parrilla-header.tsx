@@ -50,7 +50,8 @@ export function ParrillaHeader({
           <p className="text-sm text-muted-foreground max-w-2xl leading-relaxed">
             Esquema omnicanal auditado directamente desde las plataformas públicas.
             Cero estimaciones ficticias: todas las reproducciones, fechas y enlaces
-            corresponden a la actividad verificada de Brayan Pérez.
+            corresponden a la actividad verificada de Brayan Pérez. Haz clic en el botón 
+            <strong className="text-foreground font-semibold"> &ldquo;Ver enlace&rdquo;</strong> o en la ficha de cada publicación para saltar directo al video original y corroborar los datos.
           </p>
         </div>
 
