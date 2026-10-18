@@ -9,7 +9,6 @@ import {
   RefreshCw,
   Users,
   ShieldCheck,
-  Plus,
 } from "lucide-react";
 import { YouTubeIcon, InstagramIcon } from "@/components/ui/social-icons";
 import { Button } from "@/components/ui/button";
@@ -19,7 +18,6 @@ interface ParrillaHeaderProps {
   isSyncing?: boolean;
   onSync?: () => void;
   lastSyncTime?: string;
-  onOpenImport?: () => void;
 }
 
 export function ParrillaHeader({
@@ -27,7 +25,6 @@ export function ParrillaHeader({
   isSyncing = false,
   onSync,
   lastSyncTime,
-  onOpenImport,
 }: ParrillaHeaderProps) {
   const formattedViews = new Intl.NumberFormat("es-CO").format(stats.totalViews);
 
@@ -60,18 +57,6 @@ export function ParrillaHeader({
 
         {/* Real-time Sync and Social Links */}
         <div className="flex flex-wrap items-center gap-2.5 shrink-0">
-          {onOpenImport && (
-            <Button
-              variant="default"
-              size="sm"
-              onClick={onOpenImport}
-              className="h-9 gap-1.5 text-xs font-semibold shadow-2xs bg-primary hover:bg-primary/90 text-primary-foreground"
-            >
-              <Plus className="size-3.5" />
-              <span>Sumar por Link</span>
-            </Button>
-          )}
-
           {onSync && (
             <Button
               variant="outline"

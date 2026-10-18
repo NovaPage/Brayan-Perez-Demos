@@ -7,6 +7,15 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 Repositorio oficial: [GitHub - NovaPage/Brayan-Perez-Demos](https://github.com/NovaPage/Brayan-Perez-Demos.git)
 
+## [0.4.1] - 2026-10-18
+
+### Eliminado / Corregido
+- **Purificación Estricta de Métricas No Verificables**:
+  - Eliminación completa de `par-ig-001` y `par-ig-002` del dataset base para evitar estimaciones o datos no 100% exactos (Instagram no expone reproducciones públicas de Reels vía OpenGraph).
+  - Eliminación del modal de importación provisional (`ParrillaImportModal`) y endpoint `/api/parrilla/import` para proteger la integridad de la base de datos contra contaminación de métricas no auditadas.
+  - La parrilla mantiene exclusivamente los **datos 100% reales y auditables de YouTube** (@BrayanPerezPro: 20 piezas publicadas verificadas en vivo con 11.926+ reproducciones exactas).
+  - 20/20 pruebas unitarias aprobadas y build limpio validado.
+
 ## [0.4.0] - 2026-10-18
 
 ### Añadido

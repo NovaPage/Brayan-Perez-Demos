@@ -19,11 +19,11 @@ describe("Parrilla Service and Models", () => {
 
   it("calculates accurate stats and real view counts", () => {
     const stats = getParrillaStats(items);
-    expect(stats.totalItems).toBe(24);
-    expect(stats.publishedCount).toBe(22);
+    expect(stats.totalItems).toBe(22);
+    expect(stats.publishedCount).toBe(20);
     expect(stats.totalViews).toBeGreaterThan(10000); // 11.926+ real views
     expect(stats.channelsCount.YouTube).toBe(21);
-    expect(stats.channelsCount.Instagram).toBe(3);
+    expect(stats.channelsCount.Instagram).toBe(1);
   });
 
   it("filters items by YouTube channel", () => {
