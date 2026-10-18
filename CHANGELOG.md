@@ -5,6 +5,8 @@ Todos los cambios notables en este proyecto serán documentados en este archivo.
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/)
 y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
+Repositorio oficial: [GitHub - NovaPage/Brayan-Perez-Demos](https://github.com/NovaPage/Brayan-Perez-Demos.git)
+
 ## [0.2.0] - 2026-10-18
 
 ### Añadido
@@ -35,3 +37,6 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 - Pruebas unitarias para componentes `Button` y `ThemeToggle`.
 - Documentación de arquitectura y directrices en `docs/SHADCN_STANDARDS.md`.
 - Reglas de desarrollo para agentes en `.agents/rules/shadcn-standards.md`.
+
+[0.2.0]: https://github.com/NovaPage/Brayan-Perez-Demos/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/NovaPage/Brayan-Perez-Demos/releases/tag/v0.1.0
