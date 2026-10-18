@@ -11,7 +11,8 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import {
   PILLAR_META,
   FORMAT_META,
@@ -173,23 +174,20 @@ export function ParrillaTable({ items, onSelectItem }: ParrillaTableProps) {
                 <TableCell className="text-right">
                   <div className="flex items-center justify-end gap-1">
                     {(item.media.videoUrl || item.cta.url) && (
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        className="h-7 px-2 text-xs gap-1 border-border/80 text-muted-foreground hover:text-red-500 hover:border-red-500/40"
-                        asChild
+                      <a
+                        href={item.media.videoUrl || item.cta.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={cn(
+                          buttonVariants({ variant: "outline", size: "sm" }),
+                          "h-7 px-2 text-xs gap-1 border-border/80 text-muted-foreground hover:text-red-500 hover:border-red-500/40"
+                        )}
                         title="Ver publicación original directa"
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <a
-                          href={item.media.videoUrl || item.cta.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <ExternalLink className="size-3" />
-                          <span className="hidden xl:inline">Ver enlace</span>
-                        </a>
-                      </Button>
+                        <ExternalLink className="size-3" />
+                        <span className="hidden xl:inline">Ver enlace</span>
+                      </a>
                     )}
                     <Button
                       variant="ghost"

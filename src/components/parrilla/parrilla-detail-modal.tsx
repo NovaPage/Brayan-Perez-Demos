@@ -18,7 +18,8 @@ import {
   DrawerTitle,
 } from "@/components/ui/drawer";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import {
   PILLAR_META,
   FORMAT_META,
@@ -212,21 +213,18 @@ export function ParrillaDetailModal({
                   </>
                 )}
               </Button>
-              <Button
-                variant="default"
-                size="sm"
-                asChild
-                className="h-7 px-2.5 text-xs gap-1 bg-red-600 hover:bg-red-700 text-white font-medium shadow-2xs"
+              <a
+                href={item.media.videoUrl || item.cta.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn(
+                  buttonVariants({ variant: "default", size: "sm" }),
+                  "h-7 px-2.5 text-xs gap-1 bg-red-600 hover:bg-red-700 text-white font-medium shadow-2xs"
+                )}
               >
-                <a
-                  href={item.media.videoUrl || item.cta.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <ExternalLink className="size-3" />
-                  <span>Ir a la publicación</span>
-                </a>
-              </Button>
+                <ExternalLink className="size-3" />
+                <span>Ir a la publicación</span>
+              </a>
             </div>
           </div>
           <p className="text-[11px] text-muted-foreground leading-normal">
