@@ -7,6 +7,24 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 Repositorio oficial: [GitHub - NovaPage/Brayan-Perez-Demos](https://github.com/NovaPage/Brayan-Perez-Demos.git)
 
+## [0.3.0] - 2026-10-18
+
+### Añadido
+- **Módulo Omnicanal de Parrilla de Contenido (`/parrilla`)**:
+  - Extracción y auditoría de **20 publicaciones reales** directamente desde el canal oficial de YouTube `@BrayanPerezPro`:
+    - Video maestro de formato largo: *"LA LECCION DE 700 MIL DOLARES"* (155 views reales).
+    - 19 YouTube Shorts oficiales con títulos, fechas y métricas públicas exactas (*"PERDI $500 MIL DÓLARES"*, *"SE UN ENFERMO"*, *"ERES REAL"*, etc.).
+  - Endpoint de sincronización en tiempo real: `GET /api/parrilla/sync` para consultar en vivo reproducciones, suscriptores y estado del canal.
+  - Botón interactivo de **"Sincronizar en Vivo"** en la interfaz para refrescar las métricas dinámicas al instante sin recarga de página.
+  - Componentes responsivos de visualización:
+    - `ParrillaTable`: Vista de escritorio con badges de canal, pilar temático, formato, fecha, vistas y ganchos (hooks).
+    - `ParrillaCards`: Vista móvil optimizada con tarjetas compactas y métricas auditadas.
+    - `ParrillaDetailModal`: Dialog/Drawer responsivo con reproductor embebido de YouTube, copy completo, hashtags, CTA y notas editoriales.
+  - Iconos SVG ligeros para YouTube, Instagram y TikTok en `src/components/ui/social-icons.tsx`.
+- **Pruebas y Validación**:
+  - 19 pruebas unitarias aprobadas al 100% en Vitest.
+  - Compilación de producción validada con ruta dinámica `/api/parrilla/sync` y rutas estáticas `/`, `/bitacora` y `/parrilla`.
+
 ## [0.2.0] - 2026-10-18
 
 ### Añadido
@@ -38,5 +56,6 @@ Repositorio oficial: [GitHub - NovaPage/Brayan-Perez-Demos](https://github.com/N
 - Documentación de arquitectura y directrices en `docs/SHADCN_STANDARDS.md`.
 - Reglas de desarrollo para agentes en `.agents/rules/shadcn-standards.md`.
 
+[0.3.0]: https://github.com/NovaPage/Brayan-Perez-Demos/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/NovaPage/Brayan-Perez-Demos/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/NovaPage/Brayan-Perez-Demos/releases/tag/v0.1.0

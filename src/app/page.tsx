@@ -78,24 +78,27 @@ export default function Home() {
         </Link>
 
         {/* Parrilla Modular */}
-        <div className="rounded-2xl border border-border/60 bg-muted/20 p-5 space-y-3 opacity-80">
+        <Link
+          href="/parrilla"
+          className="group rounded-2xl border border-border/80 bg-card p-5 transition-all duration-200 hover:border-foreground/30 hover:shadow-xs hover:-translate-y-0.5 space-y-3"
+        >
           <div className="flex items-center justify-between">
-            <div className="size-9 rounded-xl bg-muted text-muted-foreground flex items-center justify-center">
+            <div className="size-9 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
               <Layers className="size-4.5" />
             </div>
-            <Badge variant="outline" className="text-[10px] uppercase font-mono">
-              Fase 2
+            <Badge variant="default" className="text-[10px] uppercase font-mono">
+              Activo
             </Badge>
           </div>
           <div className="space-y-1">
-            <h3 className="font-semibold text-foreground text-sm">
+            <h3 className="font-semibold text-foreground text-sm group-hover:text-primary transition-colors">
               Parrilla de Contenido
             </h3>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              Matriz editorial 3·2·1, calendarización y ganchos de retención multicanal.
+              Matriz editorial 3·2·1, calendarización, ganchos y métricas omnicanal.
             </p>
           </div>
-        </div>
+        </Link>
 
         {/* Cronogramas Modular */}
         <div className="rounded-2xl border border-border/60 bg-muted/20 p-5 space-y-3 opacity-80">

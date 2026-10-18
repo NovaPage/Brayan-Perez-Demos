@@ -1,0 +1,798 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-10-18T06:09:24.694Z",
+  "auditType": "AUDITADO_EN_VIVO",
+  "channelOverview": {
+    "handle": "@BrayanPerezPro",
+    "subscribers": 96,
+    "subscribersFormatted": "96 suscriptores",
+    "totalChannelVideos": 33
+  },
+  "framework": {
+    "name": "Matriz Editorial 3·2·1 Brayan Pérez",
+    "description": "3 pilares temáticos, 2 formatos de profundidad (YouTube Deep-Dive y Shorts/Reels), 1 experimento semanal.",
+    "pillars": [
+      {
+        "id": "mindset",
+        "name": "Mindset & Psicología",
+        "color": "bg-indigo-500/10 text-indigo-500 border-indigo-500/20",
+        "description": "Disciplina, gestión de pérdidas, resiliencia emocional y superación del sesgo de ego."
+      },
+      {
+        "id": "trading_riesgo",
+        "name": "Trading Técnico & Riesgo",
+        "color": "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
+        "description": "Cálculo matemático de lotaje, reglas de salida innegociables y gestión de drawdown."
+      },
+      {
+        "id": "marca_personal",
+        "name": "Marca Personal & Filosofía",
+        "color": "bg-amber-500/10 text-amber-500 border-amber-500/20",
+        "description": "Construcción en público, lecciones de vida, autoridad ética y anti-hype financiero."
+      }
+    ],
+    "channels": [
+      {
+        "name": "YouTube",
+        "handle": "@BrayanPerezPro",
+        "url": "https://www.youtube.com/@BrayanPerezPro",
+        "standardSchedule": "Domingos y Martes · 6:00 PM"
+      },
+      {
+        "name": "Instagram",
+        "handle": "@brayan_perezoficial",
+        "url": "https://www.instagram.com/brayan_perezoficial/",
+        "standardSchedule": "Lunes a Viernes · 12:00 PM y 7:00 PM"
+      },
+      {
+        "name": "TikTok",
+        "handle": "@brayanperezoficial",
+        "url": "https://www.tiktok.com",
+        "standardSchedule": "Lunes a Sábado · 1:00 PM y 8:30 PM"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "par-001",
+      "code": "PAR-001",
+      "title": "LA LECCION DE 700 MIL DOLARES",
+      "pillar": "mindset",
+      "format": "video_largo",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-10-13",
+      "timeSlot": "6:00 PM",
+      "hook": "Hook oficial: \"LA LECCION DE 700 MIL DOLARES\"",
+      "caption": "Los secretos que nadie te enseña de los mercados.",
+      "hashtags": [
+        "#Mindset",
+        "#BrayanPerez",
+        "#Trading"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=RBDbeXNOcMk",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "RBDbeXNOcMk",
+        "videoUrl": "https://www.youtube.com/watch?v=RBDbeXNOcMk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/RBDbeXNOcMk/hqdefault.jpg",
+        "duration": "18:42"
+      },
+      "metrics": {
+        "views": 155,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "Episodio maestro de formato largo en YouTube"
+    },
+    {
+      "id": "par-002",
+      "code": "PAR-002",
+      "title": "PERDI $500 MIL DÓLARES !",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-10",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"PERDI $500 MIL DÓLARES !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). PERDI $500 MIL DÓLARES !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=t_Oo1v-VK58",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "t_Oo1v-VK58",
+        "videoUrl": "https://www.youtube.com/watch?v=t_Oo1v-VK58",
+        "thumbnailUrl": "https://i.ytimg.com/vi/t_Oo1v-VK58/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 1025,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-003",
+      "code": "PAR-003",
+      "title": "SE UN ENFERMO ! VIDEO COMPLETO",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-08",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"SE UN ENFERMO ! VIDEO COMPLETO\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). SE UN ENFERMO ! VIDEO COMPLETO. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=fSPWvq9NqFY",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "fSPWvq9NqFY",
+        "videoUrl": "https://www.youtube.com/watch?v=fSPWvq9NqFY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fSPWvq9NqFY/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 1366,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-004",
+      "code": "PAR-004",
+      "title": "ERES REAL 🚫",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-26",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"ERES REAL 🚫\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). ERES REAL 🚫. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#mindsetdeoro",
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=_zfyvb3zMSA",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "_zfyvb3zMSA",
+        "videoUrl": "https://www.youtube.com/watch?v=_zfyvb3zMSA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_zfyvb3zMSA/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 913,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-005",
+      "code": "PAR-005",
+      "title": "APAGA EL RUIDO 🚫",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-26",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"APAGA EL RUIDO 🚫\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). APAGA EL RUIDO 🚫. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#mindsetdeoro",
+        "#desarrollopersonal",
+        "#motivacion"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=m6A-x8tOIro",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "m6A-x8tOIro",
+        "videoUrl": "https://www.youtube.com/watch?v=m6A-x8tOIro",
+        "thumbnailUrl": "https://i.ytimg.com/vi/m6A-x8tOIro/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 155,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-006",
+      "code": "PAR-006",
+      "title": "BIOLOGIA MASCULINA!",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-24",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"BIOLOGIA MASCULINA!\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). BIOLOGIA MASCULINA!. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#desarrollopersonal",
+        "#mindsetdeoro",
+        "#motivacion"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=_zObsvU3uPQ",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "_zObsvU3uPQ",
+        "videoUrl": "https://www.youtube.com/watch?v=_zObsvU3uPQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_zObsvU3uPQ/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 126,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-007",
+      "code": "PAR-007",
+      "title": "NO PIERDAS MAS ‼️",
+      "pillar": "trading_riesgo",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-23",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"NO PIERDAS MAS ‼️\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). NO PIERDAS MAS ‼️. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#desarrollopersonal",
+        "#motivacion"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=U9q6ER-nbnU",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "U9q6ER-nbnU",
+        "videoUrl": "https://www.youtube.com/watch?v=U9q6ER-nbnU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/U9q6ER-nbnU/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 562,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-008",
+      "code": "PAR-008",
+      "title": "ES AHORA ‼️",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-18",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"ES AHORA ‼️\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). ES AHORA ‼️. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#desarrollopersonal",
+        "#motivacion"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=_hiBVMKYYKU",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "_hiBVMKYYKU",
+        "videoUrl": "https://www.youtube.com/watch?v=_hiBVMKYYKU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/_hiBVMKYYKU/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 248,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-009",
+      "code": "PAR-009",
+      "title": "NO GASTES TU ENERGÍA** !",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-17",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"NO GASTES TU ENERGÍA** !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). NO GASTES TU ENERGÍA** !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#desarrollopersonal",
+        "#movimientoelamorhacealmundogirar"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=GFGmCvnckdg",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "GFGmCvnckdg",
+        "videoUrl": "https://www.youtube.com/watch?v=GFGmCvnckdg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GFGmCvnckdg/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 964,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-010",
+      "code": "PAR-010",
+      "title": "ERES CULPABLE !",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-17",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"ERES CULPABLE !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). ERES CULPABLE !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#desarrollopersonal",
+        "#motivacion"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=0O0qP851XwM",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "0O0qP851XwM",
+        "videoUrl": "https://www.youtube.com/watch?v=0O0qP851XwM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0O0qP851XwM/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 1255,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-011",
+      "code": "PAR-011",
+      "title": "AL FALLO !",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-11",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"AL FALLO !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). AL FALLO !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=cGr3bGq3zpo",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "cGr3bGq3zpo",
+        "videoUrl": "https://www.youtube.com/watch?v=cGr3bGq3zpo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/cGr3bGq3zpo/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 251,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-012",
+      "code": "PAR-012",
+      "title": "MASTER CLASS GRATIS 🎟️",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-11",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"MASTER CLASS GRATIS 🎟️\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). MASTER CLASS GRATIS 🎟️. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=MCN7_LIVNUg",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "MCN7_LIVNUg",
+        "videoUrl": "https://www.youtube.com/watch?v=MCN7_LIVNUg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MCN7_LIVNUg/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 77,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-013",
+      "code": "PAR-013",
+      "title": "TE AYUDARE !",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-11",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"TE AYUDARE !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). TE AYUDARE !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=X7aRFsnnLDo",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "X7aRFsnnLDo",
+        "videoUrl": "https://www.youtube.com/watch?v=X7aRFsnnLDo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/X7aRFsnnLDo/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 243,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-014",
+      "code": "PAR-014",
+      "title": "ME LA PELA",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-28",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"ME LA PELA\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). ME LA PELA. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=5E6xijbghKY",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "5E6xijbghKY",
+        "videoUrl": "https://www.youtube.com/watch?v=5E6xijbghKY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5E6xijbghKY/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 9,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-015",
+      "code": "PAR-015",
+      "title": "TE FALLASTE !",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-24",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"TE FALLASTE !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). TE FALLASTE !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#desarrollopersonal",
+        "#movimientoelamorhacealmundogirar"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=kDAqruw3BjY",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "kDAqruw3BjY",
+        "videoUrl": "https://www.youtube.com/watch?v=kDAqruw3BjY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kDAqruw3BjY/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 6,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-016",
+      "code": "PAR-016",
+      "title": "MUEVE EL CUL* !",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-09",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"MUEVE EL CUL* !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). MUEVE EL CUL* !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=ZrfdCeqKP-w",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "ZrfdCeqKP-w",
+        "videoUrl": "https://www.youtube.com/watch?v=ZrfdCeqKP-w",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZrfdCeqKP-w/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 23,
+        "retentionRate": "45%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-017",
+      "code": "PAR-017",
+      "title": "MENTE VACIA 🆘",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-09",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"MENTE VACIA 🆘\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). MENTE VACIA 🆘. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=ORswJFDcpA4",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "ORswJFDcpA4",
+        "videoUrl": "https://www.youtube.com/watch?v=ORswJFDcpA4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ORswJFDcpA4/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 748,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-018",
+      "code": "PAR-018",
+      "title": "NO SEAS TACAÑO !",
+      "pillar": "marca_personal",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-08",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"NO SEAS TACAÑO !\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). NO SEAS TACAÑO !. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#desarrollopersonal",
+        "#exito"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=TjamYEziFqI",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "TjamYEziFqI",
+        "videoUrl": "https://www.youtube.com/watch?v=TjamYEziFqI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/TjamYEziFqI/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 1494,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-019",
+      "code": "PAR-019",
+      "title": "ENTIENDE ESTO AHORA ¡",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-07",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"ENTIENDE ESTO AHORA ¡\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). ENTIENDE ESTO AHORA ¡. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivacion",
+        "#desarrollopersonal"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=77AffcrPtXg",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "77AffcrPtXg",
+        "videoUrl": "https://www.youtube.com/watch?v=77AffcrPtXg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/77AffcrPtXg/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 1226,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-020",
+      "code": "PAR-020",
+      "title": "NO PIERDAS",
+      "pillar": "mindset",
+      "format": "short",
+      "channel": "YouTube",
+      "status": "publicado",
+      "date": "2026-06-07",
+      "timeSlot": "12:00 PM",
+      "hook": "Hook oficial: \"NO PIERDAS\"",
+      "caption": "Publicación oficial de Brayan Pérez (@BrayanPerezPro). NO PIERDAS. Educación sin reservas y mentalidad de proceso.",
+      "hashtags": [
+        "#motivation"
+      ],
+      "cta": {
+        "label": "Ver en YouTube Oficial",
+        "url": "https://www.youtube.com/watch?v=O0tKHzjZQaw",
+        "targetResource": "YouTube"
+      },
+      "media": {
+        "youtubeId": "O0tKHzjZQaw",
+        "videoUrl": "https://www.youtube.com/watch?v=O0tKHzjZQaw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/O0tKHzjZQaw/hqdefault.jpg",
+        "duration": "0:50"
+      },
+      "metrics": {
+        "views": 1080,
+        "retentionRate": "65%"
+      },
+      "assignedEditor": "Brayan Pérez (Mindset)",
+      "notes": "YouTube Short oficial del canal @BrayanPerezPro"
+    },
+    {
+      "id": "par-021",
+      "code": "PAR-021",
+      "title": "Checklist Pre-Mercado: 3 filtros innegociables antes de comprar",
+      "pillar": "trading_riesgo",
+      "format": "reel",
+      "channel": "Instagram",
+      "status": "programado",
+      "date": "2026-10-19",
+      "timeSlot": "7:00 PM",
+      "hook": "Antes de arriesgar un solo dólar en la sesión de hoy, pásate estos 3 filtros obligatorios.",
+      "caption": "1. ¿Tu ratio Riesgo:Beneficio es mínimo 1:2?\n2. ¿Tu posición respeta el límite máximo del 1% al 2% de tu cuenta?\n3. ¿Estás operando por confirmación de sistema o por aburrimiento / FOMO?\nLa disciplina antecede a la ganancia. Si una de las tres falla, no hay trade.",
+      "hashtags": [
+        "#ChecklistTrading",
+        "#Disciplina",
+        "#ReglasClaras",
+        "#BrayanPerez"
+      ],
+      "cta": {
+        "label": "Guarda este Reel y descarga la bitácora en la bio",
+        "url": "https://brayanperez-theta.vercel.app/#hub",
+        "targetResource": "Plantilla de Bitácora de Trading"
+      },
+      "media": {
+        "duration": "0:52"
+      },
+      "assignedEditor": "Editor Audiovisual",
+      "notes": "Programado para Instagram. Las métricas se auditarán tras publicación."
+    },
+    {
+      "id": "par-022",
+      "code": "PAR-022",
+      "title": "Por qué el 90% de los traders quiebran en sus primeros 90 días",
+      "pillar": "marca_personal",
+      "format": "video_largo",
+      "channel": "YouTube",
+      "status": "en_edicion",
+      "date": "2026-10-21",
+      "timeSlot": "6:00 PM",
+      "hook": "La industria del trading te vende libertad en 30 días, pero te oculta las estadísticas de quiebra. Aquí los datos reales.",
+      "caption": "Episodio 02 del podcast oficial de Brayan Pérez. Analizamos las trampas de la ludopatía financiera, los grupos de señales donde nadie audita resultados y el camino metódico para construir una carrera de 10 años en los mercados.",
+      "hashtags": [
+        "#PodcastTrading",
+        "#RealidadDelTrading",
+        "#MentalidadFinanciera",
+        "#BrayanPerezPro"
+      ],
+      "cta": {
+        "label": "Postular a Mentoría 1-a-1 en la descripción",
+        "url": "https://brayanperez-theta.vercel.app/#servicios",
+        "targetResource": "Formulario de Mentoría"
+      },
+      "media": {
+        "duration": "22:15"
+      },
+      "assignedEditor": "Pendiente propuesta editor externo",
+      "notes": "En etapa de postproducción y edición de sonido."
+    }
+  ]
+}

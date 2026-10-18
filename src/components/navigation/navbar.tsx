@@ -31,8 +31,7 @@ export function Navbar() {
       href: "/parrilla",
       label: "Parrilla de Contenido",
       icon: Layers,
-      badge: "Próx",
-      disabled: false,
+      activeMatch: "/parrilla",
     },
     {
       href: "/cronograma",
